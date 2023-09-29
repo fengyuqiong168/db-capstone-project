@@ -51,7 +51,7 @@ VALUES
 
 
 --- Populate the `Menus` Table 
---- FAIL, i should use composite primary key
+--- Note: i should use composite primary key
 INSERT INTO Menus (MenuID, ItemID, Cuisine)
 VALUES
 (1, 1, 'Greek'),
